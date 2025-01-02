@@ -10,23 +10,23 @@ This repository contains a simple feedback application built to gather user feed
    ```bash
    git clone https://github.com/rshridoy/feedback-apps.git
    ```
+2. **Run**
+	
+   ```bash
+   npm run dev
+   ```
 
-2. **Navigate to the Project Folder**  
+
+3. **Navigate to the Project Folder**  
    Change your working directory to the project folder:
    ```bash
    cd feedback-apps
    ```
 
-3. **Install Dependencies**  
+4. **Install Dependencies**  
    Install the required dependencies using pip:
    ```bash
    pip install -r requirements.txt
-   ```
-
-4. **Run**
-	
-   ```bash
-   npm run dev
    ```
 
 5. **Run the Application**  

@@ -23,7 +23,7 @@ This repository contains a simple feedback application built to gather user feed
    pip install -r requirements.txt
    ```
 
-4. **Run
+4. **Run**
 	
    ```bash
    npm run dev

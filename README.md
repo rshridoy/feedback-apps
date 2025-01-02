@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Feedback Apps
 
-First, run the development server:
+This repository contains a simple feedback application built to gather user feedback through various forms. It aims to collect, process, and display feedback in an efficient and user-friendly manner.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Steps to Run Locally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone the Repository**  
+   Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/rshridoy/feedback-apps.git
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Navigate to the Project Folder**  
+   Change your working directory to the project folder:
+   ```bash
+   cd feedback-apps
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Install Dependencies**  
+   Install the required dependencies using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Learn More
+4. **Run
+	
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+5. **Run the Application**  
+   Start the application:
+   ```bash
+   python app.py
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+6. **Access the App**  
+   Open your browser and go to `http://127.0.0.1:5000/` to use the application.
 
-## Deploy on Vercel
+## Approach and Tools Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Flask**: A lightweight WSGI web application framework in Python, used to create the backend of the application.
+- **NextJs, TailwindCSS**: For structuring and styling the frontend.
+- **VertexAI**: For the AI suggestion, I use VertexAI.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+

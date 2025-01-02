@@ -13,6 +13,7 @@ This repository contains a simple feedback application built to gather user feed
 2. **Run**
 	
    ```bash
+   cd feedback-apps
    npm run dev
    ```
 
@@ -20,7 +21,7 @@ This repository contains a simple feedback application built to gather user feed
 3. **Navigate to the Project Folder**  
    Change your working directory to the project folder:
    ```bash
-   cd feedback-apps
+   cd backend
    ```
 
 4. **Install Dependencies**  

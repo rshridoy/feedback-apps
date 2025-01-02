@@ -18,17 +18,18 @@ This repository contains a simple feedback application built to gather user feed
    ```
 
 
-3. **Navigate to the Project Folder**  
+3. **Install Dependencies**  
+   Install the required dependencies using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+4. **Navigate to the Project Folder**  
    Change your working directory to the project folder:
    ```bash
    cd backend
    ```
 
-4. **Install Dependencies**  
-   Install the required dependencies using pip:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 5. **Run the Application**  
    Start the application:

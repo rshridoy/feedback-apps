@@ -37,7 +37,7 @@ This repository contains a simple feedback application built to gather user feed
 
 
 6. **Access the App**  
-   Open your browser and go to `http://127.0.0.1:5000/` to use the application.
+   Open your browser and go to `http://127.0.0.1:3000/` to use the application.
 
 ## Approach and Tools Used
 
